@@ -1,5 +1,94 @@
-- model: inventory.product
-  pk: 1
+- model:          inventory.product
+  pk:             1
   fields:
-    name: John
-    description: Lennon
+    brand:        'Willards'
+    category:     'Spreads'
+    barcode:      123456789
+    size:         100
+    size_units:   'ml'
+    quantity:     1
+    name:         'Peanut Butter'
+    description:  'Smooth'
+    image_1:      'images/products/image_1.jpg'
+    image_2:      'images/products/image_2.jpg'
+    image_3:      'images/products/image_3.jpg'
+    image_4:      'images/products/image_4.jpg'
+    image_5:      'images/products/image_5.jpg'
+    date_created: '2017-07-10'
+    created_by:   'admin'
+    
+- model:          inventory.product
+  pk:             2
+  fields:
+    brand:        'Dendairy'
+    category:     'Dairy'
+    barcode:      123456789
+    size:         50
+    size_units:   'ml'
+    quantity:     1
+    name:         'Forest of Fruits'
+    description: 'Fat free yoghurt'
+    image_1:      'images/products/image_1.jpg'
+    image_2:      'images/products/image_2.jpg'
+    image_3:      'images/products/image_3.jpg'
+    image_4:      'images/products/image_4.jpg'
+    image_5:      'images/products/image_5.jpg'
+    date_created: '2017-07-10'
+    created_by:   'admin'
+
+- model:          inventory.product
+  pk:             3
+  fields:
+    brand:        'Schweppes'
+    category:     'Cordials'
+    barcode:      123456789
+    size:         2
+    size_units:   'l'
+    quantity:     1
+    name:         'Mazoe Blackberry'
+    description:  'Cordial'
+    image_1:      'images/products/image_1.jpg'
+    image_2:      'images/products/image_2.jpg'
+    image_3:      'images/products/image_3.jpg'
+    image_4:      'images/products/image_4.jpg'
+    image_5:      'images/products/image_5.jpg'
+    date_created: '2017-07-10'
+    created_by:   'admin'
+
+- model:          inventory.product
+  pk:             4
+  fields:
+    brand:        'Bokomo'
+    category:     'Cereal'
+    barcode:      123456789
+    size:         500
+    size_units:   'grams'
+    quantity:     1
+    name:         'Bokomo Oats'
+    description:  'Bokomo instant oats'
+    image_1:      'images/products/image_1.jpg'
+    image_2:      'images/products/image_2.jpg'
+    image_3:      'images/products/image_3.jpg'
+    image_4:      'images/products/image_4.jpg'
+    image_5:      'images/products/image_5.jpg'
+    date_created: '2017-07-10'
+    created_by:   'admin'
+
+- model:          inventory.product
+  pk:             5
+  fields:
+    brand:        'Melrose'
+    category:     'Cheeses'
+    barcode:      123456789
+    size:         1
+    size_units:   'kilogram'
+    quantity:     1
+    name:         'Melrose Cheese'
+    description:  'Lunch tin cheeses'
+    image_1:      'images/products/image_1.jpg'
+    image_2:      'images/products/image_2.jpg'
+    image_3:      'images/products/image_3.jpg'
+    image_4:      'images/products/image_4.jpg'
+    image_5:      'images/products/image_5.jpg'
+    date_created: '2017-07-10'
+    created_by:   'admin'
