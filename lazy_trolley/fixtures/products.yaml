@@ -1,0 +1,5 @@
+- model: inventory.product
+  pk: 1
+  fields:
+    name: John
+    description: Lennon
