@@ -3,6 +3,34 @@
 {% block content %}
 
 {% for product in products %}
-    <li> {{ product.name }} </li>
+<div class="col-md-3">
+    <div class="thumbnail">
+        <img src="http://placehold.it/320x210" alt="">
+        <div class="caption">
+            <h6><a href="#">{{ product.name }} </a>
+            <h6><a href="#">{{ product.description }} </a>
+            </h6>
+        </div>
+
+        <div class="caption">
+            <h6>
+              <a href="#">{{ product.size }} &nbsp;{{ product.size_units }} </a>
+            </h6>
+        </div>
+        <div class="ratings">
+            <p class="pull-right">15 reviews</p>
+            <p>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+                <span class="glyphicon glyphicon-star"></span>
+            </p>
+        </div>
+        <p>
+      <a href="#" class="btn btn-primary btn-sm">Add to cart</a>
+  </p>
+    </div>
+</div>
 {% endfor %}
 {% endblock content %}

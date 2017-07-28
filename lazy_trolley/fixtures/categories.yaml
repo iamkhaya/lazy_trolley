@@ -1,0 +1,34 @@
+- model:          inventory.category
+  pk:             1
+  fields:
+    name:         'Spreads'
+    description:  'Spreads'
+    date_created: '2017-07-10'
+
+- model:          inventory.category
+  pk:             2
+  fields:
+    name:         'Dairy'
+    description:  'Dairy'
+    date_created: '2017-07-10'
+
+- model:          inventory.category
+  pk:             3
+  fields:
+    name:         'Cordials'
+    description:  'Cordials'
+    date_created: '2017-07-10'
+
+- model:          inventory.category
+  pk:             4
+  fields:
+    name:         'Cereal'
+    description:  'Cereal'
+    date_created: '2017-07-10'
+
+- model:          inventory.category
+  pk:             5
+  fields:
+    name:         'Cheeses'
+    description:  'Cheeses'
+    date_created: '2017-07-10'

@@ -1,0 +1,34 @@
+- model:          inventory.brand
+  pk:             1
+  fields:
+    name:         Willards
+    description:  Willards
+    date_created: '2017-07-10'
+
+- model:          inventory.brand
+  pk:             2
+  fields:
+    name:         Dendairy
+    description:  Dendairy
+    date_created: '2017-07-10'
+
+- model:          inventory.brand
+  pk:             3
+  fields:
+    name:         Schweppes
+    description:  Schweppes
+    date_created: '2017-07-10'
+
+- model:          inventory.brand
+  pk:             4
+  fields:
+    name:         Bokomo
+    description:  Bokomo
+    date_created: '2017-07-10'
+
+- model:          inventory.brand
+  pk:             5
+  fields:
+    name:         Melrose
+    description:  Melrose
+    date_created: '2017-07-10'
